@@ -1,0 +1,38 @@
+.styling-calendar {
+  width: 270px;
+  /* height: 270px; */
+}
+.Clock {
+  font-size: 18px;
+}
+.World {
+  font-size: 18px;
+}
+.Calendar {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .styling-calendar {
+    width: 270px;
+  }
+  .calendar-mobile {
+    width: 270px;
+  }
+  .Clock {
+    margin-top: 4px;
+    font-size: 20px;
+  }
+  .World {
+    margin-top: 4px;
+    font-size: 20px;
+  }
+  .Calendar {
+    font-size: 20px;
+  }
+  .calendarDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
